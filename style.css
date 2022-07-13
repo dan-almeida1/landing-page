@@ -14,6 +14,11 @@ body {
     background-color: #1F2937;
 }
 
+#scndtext, #links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 ul {
     display: flex;
     list-style-type: none;
