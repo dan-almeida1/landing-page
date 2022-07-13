@@ -19,6 +19,10 @@ body {
     color: #E5E7EB;
 }
 
+#logo, #hero {
+    color: #F9FAF8;
+}
+
 ul {
     display: flex;
     list-style-type: none;
