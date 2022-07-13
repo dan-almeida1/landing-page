@@ -8,6 +8,9 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+}
+
+.header, .info, .footer {
     background-color: #1F2937;
 }
 
