@@ -16,6 +16,20 @@ body {
 
 .info {
     display: flex;
+    padding: 100px;
+}
+
+
+.info-pic {
+    background-color: #eee;
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text {
+    flex: 1 1 0;
 }
 
 #scndtext, #links {
