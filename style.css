@@ -7,7 +7,10 @@ body {
 
 button {
     background-color: #3882F6;
-    color: 
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px 24px;
 }
 
 .header {
@@ -38,12 +41,12 @@ button {
     flex: 1 1 0;
 }
 
-#scndtext, #links {
+#scndtext, #links, button {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-#logo, #hero, button {
+#logo, #hero {
     color: #F9FAF8;
 }
 
