@@ -26,5 +26,5 @@ body {
 ul {
     display: flex;
     list-style-type: none;
-    gap: 8px;
+    gap: 32px;
 }
