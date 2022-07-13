@@ -5,6 +5,11 @@ body {
     margin: 0;
 }
 
+button {
+    background-color: #3882F6;
+    color: 
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -17,6 +22,7 @@ body {
 .info {
     display: flex;
     padding: 100px;
+    gap: 32px;
 }
 
 
@@ -37,7 +43,7 @@ body {
     color: #E5E7EB;
 }
 
-#logo, #hero {
+#logo, #hero, button {
     color: #F9FAF8;
 }
 
