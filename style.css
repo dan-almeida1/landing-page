@@ -16,7 +16,7 @@ button {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0px 200px;
+    padding: 0px 150px;
 }
 
 .header, .info, .footer {
@@ -25,7 +25,7 @@ button {
 
 .info {
     display: flex;
-    padding: 100px 200px;
+    padding: 100px 150px;
     gap: 32px;
 }
 
@@ -53,6 +53,7 @@ button {
 
 #logo {
     font-size: 24px;
+    align-self: center;
 }
 
 #hero {
@@ -64,4 +65,5 @@ ul {
     display: flex;
     list-style-type: none;
     gap: 32px;
+    align-items: flex-end;
 }
