@@ -5,6 +5,10 @@ body {
     margin: 0;
 }
 
+p {
+    color: #F9FAF8;
+}
+
 button {
     background-color: #3882F6;
     border: none;
@@ -25,13 +29,13 @@ button {
 
 .info {
     display: flex;
-    padding: 100px 200px;
+    padding: 75px 200px;
     gap: 32px;
 }
 
 
 .info-pic {
-    background-color: #eee;
+    background-color: #6F7378;
     flex: 1 1 0;
     display: flex;
     justify-content: center;
