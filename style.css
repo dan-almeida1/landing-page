@@ -92,3 +92,11 @@ ul {
     font-style: italic;
     font-weight: 300;
 }
+
+.placeholder {
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+}
