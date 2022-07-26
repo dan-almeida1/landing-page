@@ -16,7 +16,6 @@ p {
 
 button {
     background-color: #3882F6;
-    border: none;
     font-weight: bold;
     border-radius: 8px;
     margin: 8px 0px;
@@ -148,4 +147,31 @@ ul {
     justify-content: center;
     align-items: center;
     padding: 50px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px;
+    border-radius: 8px;
+    padding: 50px 100px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+#call {
+    font-size: 24px;
+}
+
+#sub-call {
+    font-size: 18px;
+}
+
+#action-button {
+    border-color: #E5E7EB;
+    border-style: solid;
+}
+
+#hero-button {
+    border-style: none;
 }
