@@ -80,6 +80,8 @@ ul {
 
 .subtext {
     color: #1F2937;
+    max-width: 150px;
+    font-size: 18px;
 }
 
 .quote {
@@ -96,7 +98,33 @@ ul {
 .placeholder {
     border-style: solid;
     border-color: #3882F6;
+    border-width: 4px;;
     border-radius: 8px;
     height: 150px;
     width: 150px;
+}
+
+#rando {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+#rando-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.rando-segment {
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
